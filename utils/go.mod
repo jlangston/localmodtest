@@ -1,1 +1,1 @@
-module example.org/utils
+module github.com/jlangston/localmodtest/utils

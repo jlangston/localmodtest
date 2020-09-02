@@ -1,12 +1,12 @@
 package main
 
 import (
-	"example.org/hello"
-	"example.org/utils"
+	"github.com/jlangston/localmodtest/hello"
+	"github.com/jlangston/localmodtest/utils"
 	"fmt"
 )
 
 func main() {
-	fmt.Println(hello.Hello("martin"))
-	fmt.Println(utils.AddAndGreet("martin", 2, 3))
+	fmt.Println(hello.Hello("bob"))
+	fmt.Println(utils.AddAndGreet("bob", 2, 3))
 }

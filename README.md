@@ -1,1 +1,1 @@
-This is an example on how to use local directories ad go modules and import them whenever you are in your project.
+This is a demo repo showing issues with go test and local module

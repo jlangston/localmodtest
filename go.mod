@@ -1,13 +1,14 @@
-module example.com/localmodexample
+module github.com/jlangston/localmodtest
+
+go 1.15
 
 require (
-	example.org/hello v0.0.0
-	example.org/utils v0.0.0
+	github.com/jlangston/localmodtest/hello v0.0.0
+	github.com/jlangston/localmodtest/utils v0.0.0
 
 )
 
-replace example.org/hello => ./hello
-
-replace example.org/utils => ./utils
-
-go 1.13
+replace (
+	github.com/jlangston/localmodtest/hello => ./hello
+	github.com/jlangston/localmodtest/utils => ./utils
+)

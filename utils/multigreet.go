@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"example.org/hello"
+	"github.com/jlangston/localmodtest/hello"
 	"strconv"
 )
 
